@@ -1,0 +1,36 @@
+/* Goals Section */
+.goals-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.goals-text {
+  align-items: center;
+  padding-right: 10%;
+  flex: 1;
+}
+
+.goals-text h1 {
+
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 3%;
+}
+
+.goals-text p {
+  margin-left: 5%;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.goals-image {
+  max-width: 300px; /* Adjust as needed */
+  margin-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
