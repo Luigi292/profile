@@ -12,7 +12,7 @@
 
 .skills-content img {
   width: 100%;
-  padding-left: 15%; /* Adjust padding to move the image away from the left border */
+  padding-left: 30%; /* Adjust padding to move the image away from the left border */
   padding-top: 3%;
   margin-left: auto; /* Add margin-left:auto to center the image horizontally */
   margin-right: auto; /* Add margin-right:auto to center the image horizontally */
@@ -26,6 +26,7 @@
   width: 50%;
   padding: 10%;
   margin-top: 0;
+  margin-left: 10%;
 }
 
 .skills-buttons h1 {
