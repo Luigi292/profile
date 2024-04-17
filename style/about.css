@@ -1,13 +1,26 @@
 /* About Section */
 .about-section {
   padding: 5%;
-  background-color: rgb(0, 128, 128);
+
 }
 
 .about-content {
   display: flex;
   align-items: center;
 }
+
+
+
+/* Img Display */
+.about-content img {
+  float: left;
+  margin-right: 20px;
+  max-width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
 
 .about-text {
   flex: 1;
@@ -26,11 +39,7 @@
   text-align: center;
 }
 
-.about-content img {
-  max-width: 100%;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+
 
 @media screen and (max-width: 768px) {
   .about-content {
