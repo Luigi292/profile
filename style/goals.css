@@ -1,24 +1,49 @@
-/* Define margin for all section elements after .section-divider */
-.section-divider + section {
-  margin-top: 10%; /* Adjust margin as needed */
+/* Goals Section */
+#goals {
+  padding: 5%;
 }
 
+.goals-section {
+  display: flex;
+  align-items: center;
+}
 
+.goals-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjust spacing between text and image */
+}
 
 .goals-text {
   flex: 1;
-  margin-left: 10%;
-  padding: 5%; /* Adjust spacing between text and image */
-  background-color: #f5f5f5; /* Background color for the text box */
-  border-radius: 5px; /* Add rounded corners to the text box */
+  text-align: center;
+  margin-right: 5%;
 }
 
 .goals-text h1 {
   font-size: 36px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .goals-text p {
+  color: white;
   font-size: 18px;
-  color: #333;
+  text-align: center;
+}
+
+.image-box img {
+  max-width: 200px !important; /* Adjust the maximum width of the image as needed */
+  width: 100%; /* Ensure the image fills its container */
+  border-radius: 5px; /* Add rounded corners to the image */
+  box-shadow: 0 2px 4px rgba(42, 105, 181, 0.1); /* Add box shadow to the image */
+}
+
+@media screen and (max-width: 768px) {
+  .goals-content {
+    flex-direction: column-reverse; /* Change layout to stack on smaller screens */
+  }
+
+  .goals-text {
+    padding: 20px; /* Adjust padding for text box on smaller screens */
+  }
 }
