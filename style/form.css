@@ -1,23 +1,23 @@
-/* Contact form styles */
 .contact-form {
   flex: 1; /* Take up all available space */
   padding: 20px;
+  text-align: center; /* Center align all contents */
 }
 
 .contact-form h1 {
-  text-align: center;
   font-size: 36px;
   margin-bottom: 3%;
 }
 
 .input {
-  width: 100%;
+  width: 50%; /* Set width of input */
   padding: 10px;
+  margin: 0 auto; /* Center horizontally */
   margin-bottom: 20px;
 }
 
 .contact-form button {
-  width: 100%; /* Make the button full-width */
+  width: 25%; /* Set width of button */
   padding: 10px;
   background-color: orange;
   color: white;
@@ -30,6 +30,7 @@
 .contact-form button:hover {
   background-color: #ff6600;
 }
+
 
 /* Social icons styles */
 .social-icons {
