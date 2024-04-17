@@ -20,11 +20,16 @@
   width: 25%; /* Set width of button */
   padding: 10px;
   background-color: orange;
+  font-weight: bold;
   color: white;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  font-weight: bold;
   transition: background-color 0.3s;
+  text-decoration: none;
+
+
 }
 
 .contact-form button:hover {
