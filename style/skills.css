@@ -1,7 +1,8 @@
 /* Skills section styles */
 .skills-section {
-  background-color: #e91b1b;
-  padding: 50px 0;
+  padding: 0;
+  display: flexbox;
+  text-align: center;
 }
 
 .skills-content {
@@ -9,43 +10,60 @@
   align-items: center;
 }
 
-.skills-image {
-  width: 50%;
-  padding: 0 20px;
-}
+.skills-content img {
+  width: 100%;
+  padding-left: 15%; /* Adjust padding to move the image away from the left border */
+  padding-top: 3%;
+  margin-left: auto; /* Add margin-left:auto to center the image horizontally */
+  margin-right: auto; /* Add margin-right:auto to center the image horizontally */
 
-.skills-image img {
-  max-width: 100%;
-  height: auto;
+  max-width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(42, 105, 181, 0.1);
 }
 
 .skills-buttons {
   width: 50%;
-  padding: 0 20px;
+  padding: 10%;
+  margin-top: 0;
 }
 
 .skills-buttons h1 {
   text-align: center;
   font-size: 36px;
-  margin-bottom: 3%;
+  margin-top: -5%;
+}
+
+.button-group1 {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between button groups */
+  margin-top: 20px;
+}
+.button-group2 {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between button groups */
+  margin-top: 20px;
+}
+
+.skill-group {
+  flex-basis: 45%; /* Adjust width of each button group */
 }
 
 .skill-button {
-  display: block;
-  width: 100%;
-  padding: 10px 20px;
-  margin-bottom: 10px;
+  margin: 5px;
+  padding: 5px 10px; /* Smaller padding for buttons */
   border: none;
   border-radius: 5px;
   background-color: rgb(71, 192, 237);
   color: white;
-  font-size: 18px;
-  text-align: left;
+  font-size: 14px; /* Smaller font size */
+  text-align: center; /* Center align text */
+  width: 45%; /* Adjust button width */
   transition: background-color 0.3s;
 }
 
 .skill-button i {
-  margin-right: 10px;
+  margin-right: 5px; /* Adjust icon margin */
 }
 
 .skill-button:hover {
